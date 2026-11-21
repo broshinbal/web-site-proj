@@ -1,1 +1,341 @@
-/* קובץ זמני: הקובץ הזה יוחלף בקובץ העיצוב שלכם (style.css) */
+body {
+    background-color: #020813;
+    color: #ffffff;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #0b1528;
+    padding: 20px 0 10px 0;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 28px;
+    color: #4fd1c5;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #0b1528;
+    padding: 10px 0 20px 0;
+    border-bottom: 1px solid #1a202c;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+footer {
+    background-color: #0b1528;
+    padding: 20px;
+    font-size: 14px;
+    color: #a0aec0;
+    margin-top: 40px;
+    border-top: 1px solid #1a202c;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #a0aec0;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #4a5568;
+    background-color: #1a202c;
+    color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #4a5568;
+    background-color: #1a202c;
+    color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    font-size: 16px;
+    text-align: right;
+    background-color: #0b1528;
+}
+
+th {
+    background-color: #319795;
+    color: #ffffff;
+    padding: 12px;
+    border: 1px solid #1a202c;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #1a202c;
+    color: #e2e8f0;
+}
+
+tr:nth-child(even) {
+    background-color: #121f35;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.nav-links a {
+    color: #a0aec0;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.nav-links a.active {
+    color: #4fd1c5;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 18px;
+    color: #a0aec0;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.brain-img, .humenbrain, .noiron-img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+}
+
+.form-container {
+    background-color: #0b1528;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 2px solid #319795;
+    border-radius: 10px;
+    text-align: right;
+}
+
+.form-title {
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.form-badge {
+    background-color: #e53e3e;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+.input-row select {
+    width: 30%;
+}
+
+.input-row input {
+    width: 70%;
+}
+
+.radio-group, .checkbox-group {
+    margin-bottom: 20px;
+}
+
+.radio-option, .checkbox-option {
+    display: inline-block;
+    margin-left: 15px;
+    color: #e2e8f0;
+    font-size: 16px;
+}
+
+.radio-option input, .checkbox-option input {
+    width: auto;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn-submit {
+    background-color: #319795;
+    color: white;
+    border: none;
+    flex: 2;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-reset {
+    background-color: #4a5568;
+    color: white;
+    border: none;
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.facts-container {
+    background-color: #0b1528;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: right;
+    max-width: 600px;
+    margin: 30px auto;
+    border: 1px solid #1a202c;
+}
+
+.facts-list {
+    margin: 0;
+    padding-right: 20px;
+}
+
+.facts-list li {
+    color: #e2e8f0;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.facts-list strong {
+    color: #4fd1c5;
+}
+
+.intro {
+    background-color: #0b1528;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: right;
+    max-width: 800px;
+    margin: 30px auto;
+    border: 1px solid #1a202c;
+    border-right: 5px solid #319795;
+}
+
+.intro p {
+    color: #e2e8f0;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.methods-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 30px;
+}
+
+@media (min-width: 600px) {
+    .methods-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.method-card {
+    background-color: #0b1528;
+    border: 1px solid #1a202c;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: right;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.method-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(49, 151, 149, 0.3);
+    border-color: #319795;
+}
+
+.method-badge {
+    background-color: #319795;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.method-card h3 {
+    margin: 5px 0;
+    color: #4fd1c5;
+    font-size: 20px;
+}
+
+.method-card p {
+    color: #e2e8f0;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 10px 0 0 0;
+}
+
+.section-subtitle-clear, .table-title {
+    color: #4fd1c5;
+    margin-top: 0;
+}
+
+.table-title {
+    margin-top: 40px;
+    font-size: 24px;
+}
